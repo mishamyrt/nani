@@ -1,0 +1,35 @@
+
+
+.nani-button button {
+  transition: background-color .25s ease-in-out;
+  font-size: var(--font-size);
+  color: var(--button-text-color);
+  background-color: var(--button-color);
+  border: none;
+  border-radius: .2em;
+  padding: .2em .5em;
+  cursor: pointer;
+}
+.nani-button button:hover, .nani-button button:focus {
+  transition: background-color 0s;
+  outline: none;
+  background-color: var(--hover-color);
+}
+
+.nani-select select {
+    transition: background-color .25s ease-in-out;
+  background-color: var(--inactive-color);
+  border: none;
+  font-size: var(--font-size);
+  padding: .2em .5em;
+  border-radius: .2em;
+}
+.nani-select select:hover{
+    transition: background-color 0s;
+    background-color: #eaeaea;
+}
+.nani-select select:focus{
+    transition: background-color 0s;
+    outline: none;
+    background-color: #e6e6e6;
+}
